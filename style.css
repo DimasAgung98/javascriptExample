@@ -1,0 +1,106 @@
+body {
+    font-family: 'Aldrich', sans-serif;
+    padding-top: 3rem;
+    color: #5a5a5a;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav.link:focus {
+    color: red;
+}
+
+.carousel {
+    position: relative;
+    margin-bottom: 4rem;
+    box-sizing: border-box;
+    display: block;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 32rem;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.button-carousel {
+    padding: 1rem 5rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text-start {
+    text-align: left !important;
+}
+
+.text-end {
+    text-align: right !important;
+}
+
+.carousel-caption {
+    bottom: 5rem;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+}
+
+.carousel-caption h1 {
+    font-size: 46px;
+}
+
+.carousel-caption p {
+    font-size: 26px;
+}
+
+/* ------------------------ */
+
+.card {
+    border: none;
+}
+
+.row img {
+    height: 14rem;
+    width: auto;
+}
+
+.footer-end {
+    height: 10vh;
+    text-align: center;
+    background-color: #3c3d41;
+    color: white;
+    margin-top: 3rem;
+}
+
+.footerHover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerHover a .bi-facebook:hover {
+    color: #1877f2;
+}
+
+.footerHover a .bi-twitter:hover {
+    color: #1da1f2;
+}
+
+.footerHover a .bi-youtube:hover {
+    color: #cd201f;
+}
+
+.footerHover a .bi-twitch:hover {
+    color: #6441a4;
+}
